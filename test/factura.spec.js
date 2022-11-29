@@ -1,4 +1,4 @@
-let FacturaController = require("../src/facturaController")
+let FacturaController = require("../src/adapter/in/facturaController")
 
 describe("manejador de factura", () => {
 

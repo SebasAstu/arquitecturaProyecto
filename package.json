@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "nodemon src/infrastructure/db/index.js",
     "test-once": "jest --verbose --coverage"
   },
   "keywords": [],

@@ -1,5 +1,5 @@
 const express = require("express");
-const facturaschema = require("../models/facturaModel");
+const facturaschema = require("../../../domain/models/facturaModel");
 
 const router = express.Router();
 
