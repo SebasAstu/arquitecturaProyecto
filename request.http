@@ -1,0 +1,52 @@
+###
+POST http://localhost:8000/api/facturas HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "Asturizaga",
+    "ci": "2734087",
+    "plan": "xls",
+    "addOns": [
+     {
+        "tipo": "credito",
+        "nombre": "loquesea",
+        "tarifa": 20,
+        "megas": 200
+    }
+    ],
+    "total": 200
+}
+
+###
+GET http://localhost:8000/api/facturas HTTP/1.1
+
+###
+GET http://localhost:8000/api/facturas/6385ca3e8ba0dc07e74dff64 HTTP/1.1
+
+###
+DELETE http://localhost:8000/api/facturas/6385ca148ba0dc07e74dff62 HTTP/1.1
+
+###
+PUT http://localhost:8000/api/facturas/6385ca3e8ba0dc07e74dff64 HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "xml",
+    "ci": 2734087,
+    "plan": "xls",
+    "addOns": [
+      {
+        "tipo": "hola",
+        "nombre": "prueba",
+        "tarifa": 20,
+        "megas": 200
+      },
+      {
+         "tipo": "hola2",
+        "nombre": "prueba2",
+        "tarifa": 20,
+        "megas": 200
+      }
+    ],
+    "total": 100
+}
