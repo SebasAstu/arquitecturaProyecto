@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<title>CSS Pricing Table </title>
+</head>
+
+<body>
+ <div class="demo" style="background: #10202b;">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="heading-title">Addons </h1>
+            </div>
+
+            <form id="form-addon">
+                <div id="addon-video" >Addon Datos:</div>
+                <select id="addon-datos" class="form-select" aria-label="Default select example">
+                    <option selected>AddOn Datos</option>
+                    <option value="DATOS XS">DATOS XS</option>
+                    <option value="DATOS S">DATOS S</option>
+                    <option value="DATOS M">DATOS M</option>
+                    <option value="DATOS L">DATOS L</option>
+                    <option value="DATOS XL">DATOS XL</option>
+                    <option value="DATOS XXL">DATOS XXL</option>
+                  </select>
+                  <br>
+                  <br>
+
+                  <div id="addon-video" >Addon Redes Sociales:</div>
+
+                  <div class="form-check">
+                    <input id="addon-social" class="form-check-input" type="checkbox" value="true" id="flexCheckDefault">
+                    <label id="addon-video" class="form-check-label" for="flexCheckDefault">
+                        Redes Sociales ( Instagram, Facebook, Twitter)
+                    </label>
+                  </div>
+                  <br>
+
+                  <div id="addon-video" >Addon Video:</div>
+                  <select id="add-video" class="form-select" aria-label="Default select example">
+                    <option selected>AddOn Video</option>
+                    <option value="Youtube">Youtube</option>
+                    <option value="Vimeo">Vimeo</option>
+                  
+                  </select>
+                  <br>
+                  <br>
+                  <a id="addon" href="#" class="btn btn-default" >obtener</a>
+            </form>
+
+            
+            
+            <br>
+            <p id="result" class="text-white"></p>
+        </div>
+    </div>
+
+    <script type="module" src="presenter.js"></script>
+</body>
+</html>

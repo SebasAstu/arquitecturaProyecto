@@ -1,0 +1,90 @@
+.demo {
+  padding: 100px 0;
+}
+
+.heading-title {
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.pricingTable {
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pricingTable .pricingTable-header {
+  background: #152a38;
+}
+
+.pricingTable .heading {
+  padding: 15px 0;
+  display: block;
+}
+
+.pricingTable .heading:after {
+  content: "";
+  width: 28%;
+  border-top: 1px solid #7c888f;
+  margin: 15px auto 0;
+  display: block;
+}
+
+.pricingTable .heading h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.pricingTable .price-value {
+  color: #fff;
+  padding: 10px 0 30px;
+  font-size: 85px;
+  display: block;
+}
+
+.pricingTable .month {
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #7f909a;
+  margin-top: 15px;
+  font-size: 16px;
+  display: block;
+}
+
+.pricingTable .btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #eab01b;
+  border: none;
+  border-radius: 0;
+  padding: 20px 0;
+  font-size: 22px;
+  display: block;
+}
+
+.pricingTable .btn:after {
+  content: "";
+  opacity: 0;
+  margin-left: 5px;
+  font-family: FontAwesome;
+  transition: all .5s;
+}
+
+.pricingTable:hover .btn:after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 990px) {
+  .pricingTable {
+    margin-bottom: 20px;
+  }
+}
+
+#resultado, #addon-video {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
